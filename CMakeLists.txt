@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 #find_package(JUCE CONFIG REQUIRED)        # If you've installed JUCE to your system
 # or
-add_subdirectory("/home/maiken/JUCE" JUCE)     # If you've put JUCE in a subdirectory called JUCE
+add_subdirectory("../../JUCE" JUCE)     # If you've put JUCE in a subdirectory called JUCE
 
 # `juce_add_plugin` adds a static library target with the name passed as the first argument
 # (DvaManager here). This target is a normal CMake target, but has a lot of extra properties set
